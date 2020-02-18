@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rgn</title>
+    <title>Rails Girls Nairobi</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,8 @@
   </head>
 
   <body>
+  <%= render 'layouts/header'%>
     <%= yield %>
+<%= render 'layouts/footer'%>
   </body>
 </html>
