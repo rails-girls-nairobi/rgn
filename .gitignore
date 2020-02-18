@@ -29,3 +29,8 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+.env
+Gemfile.lock
+db/schema.rb
+yarn.lock
+package.json
