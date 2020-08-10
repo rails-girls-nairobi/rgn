@@ -1,0 +1,11 @@
+<h1>Events</h1>
+
+<% @events.each do |event| %>
+
+<label>Event name<label/>
+<h4><%= event.name %><h4/> 
+
+<label>description<label/>
+<h4><%= event.description%><h4/>
+
+<% end %>

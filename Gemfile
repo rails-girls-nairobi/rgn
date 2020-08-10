@@ -8,6 +8,10 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'bootstrap', '~> 4.4.1'
 
 gem 'puma', '~> 3.11'
+# Use SCSS for stylesheets
+
+
+gem 'bootstrap-datepicker-rails'
 gem 'sass-rails', '~> 5'
 gem 'webpacker', '~> 4.0'
 gem 'dotenv-rails'

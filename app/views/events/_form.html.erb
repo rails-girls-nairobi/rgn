@@ -1,0 +1,35 @@
+<%= form_with scope: :event, local: true, url: events_path, method: :post do |form| %>
+
+    <P>
+        <%= form.label :name %><br>
+        <%= form.text_field :name %>
+    </P>
+
+   <P>
+        <%= form.label :description %><br>
+        <%= form.text_field :description %>
+    </P>
+
+    <p>
+        <%= form.label :start_time %><br>
+        <%= form.text_field :start_time, data:{provide: 'datepicker'} %>
+    </p>
+
+    <p>
+        <%= form.label :end_time %><br>
+        <%= form.text_field :end_time, data:{provide: 'datepicker'} %>
+    </p>
+
+    <P>
+        <%= form.label :venue %><br>
+        <%= form.text_field :venue %>
+    </P>
+    <P>
+        <%= form.label :direction %><br>
+        <%= form.text_field :directions %>
+    </P>
+
+    <p>
+        <%= form.submit %>
+    </p>
+<% end %>
